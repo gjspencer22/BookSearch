@@ -20,6 +20,7 @@
     "bcrypt": "^5.0.1",
     "graphql": "^15.5.1",
     "heroku": "^7.56.0",
-    "mongoose": "^5.13.2"
+    "mongoose": "^5.13.2",
+    "node-pre-gyp": "^0.17.0"
   }
 }
