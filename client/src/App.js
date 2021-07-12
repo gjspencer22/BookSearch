@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import SearchBooks from './pages/SearchBooks';
 import SavedBooks from './pages/SavedBooks';
 import Navbar from './components/Navbar';
+import { ApolloProvider } from 'react-apollo';
+import { ApolloClient } from 'apollo-client';
 
 function App() {
   return (
